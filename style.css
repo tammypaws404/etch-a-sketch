@@ -1,14 +1,12 @@
 #gridContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    max-width: 960px;
-    max-height: 960px;
-    border: 1px solid yellow;
+
 }
 
 .square {
     flex: 1;
+    padding: 20px;
     border: 1px solid red;
 }
 
